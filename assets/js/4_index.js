@@ -1,20 +1,20 @@
 /*************************************************************************************
  *Requerimiento 4: Este JS interacual con el archivo html "4_index.html"             *
  *************************************************************************************/
-let Colors = ['red', 'blue', 'green', 'yellow']
-let bgColor = Colors[0]
+const colors = ['red', 'blue', 'green', 'yellow']
+let bgColor = colors[0]
 document.querySelectorAll('div').forEach((item, i) => {
-  document.querySelector('#' + item.id).setAttribute('style','width: 200px; height: 200px; background-color:' + Colors[i])
+  document.querySelector('#' + item.id).setAttribute('style','width: 200px; height: 200px; background-color:' + colors[i])
 })
 document.addEventListener('keydown', (event) => {
   if (event.key.toLowerCase() === 'a') {
-    bgColor =  Colors[0]
+    bgColor =  colors[0]
   } else if (event.key.toLowerCase() === 's') {
-    bgColor = Colors[1]
+    bgColor = colors[1]
   } else if (event.key.toLowerCase() === 'd') {
-    bgColor = Colors[2]
+    bgColor = colors[2]
   } else if (event.key.toLowerCase() === 'f') {
-    bgColor = Colors[3]
+    bgColor = colors[3]
   }
 })
 document.querySelectorAll('div').forEach((item) => {

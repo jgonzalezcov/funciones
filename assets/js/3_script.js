@@ -1,5 +1,5 @@
 /*************************************************************************************
- *Requerimiento 3: Este JS interacual con el archivo html "3_pintar.html"             *
+ *Requerimiento 3: Este JS interactúa con el archivo html "3_pintar.html"             *
  *************************************************************************************/
 
 const pintar = function (ele,color) {
