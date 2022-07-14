@@ -1,5 +1,5 @@
 /*************************************************************************************
- *Requerimiento 4: Este JS interacual con el archivo html "4_index.html"             *
+ *Requerimiento 4: Este JS interactúa con el archivo html "4_index.html"             *
  *************************************************************************************/
 const colors = ['red', 'blue', 'green', 'yellow']
 let bgColor = colors[0]
@@ -22,5 +22,3 @@ document.querySelectorAll('div').forEach((item) => {
     document.querySelector('#' + e.target.id).style.backgroundColor = bgColor
   })
 })
-
-
